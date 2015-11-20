@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-20 05:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: taskbuster/settings/base.py:103
+msgid "English"
+msgstr "英文"
+
+#: taskbuster/settings/base.py:104
+msgid "Catalan"
+msgstr "西班牙"
+
+#: taskbuster/settings/base.py:105
+msgid "Chinese"
+msgstr "中文"
+
+#: taskbuster/templates/taskbuster/index.html:8
+msgid "Welcome to TaskBuster!"
+msgstr "歡迎來到 TaskBuster!"
+
+#: taskbuster/templates/taskbuster/index.html:9
+msgid ""
+"TaskBuster is a simple Task manager that helps you organize your daylife. </"
+"br> You can create todo lists, periodic tasks and more! </br></br> If you "
+"want to learn how it was created, or create it yourself!, check www.django-"
+"tutorial.com"
+msgstr ""
+"TaskBuster 是一個任務管理器幫助你組織你的每一天。</"
+"br>你能創造待辦清單，週期任務以及更多！</br></br>如果你"
+"想要學習他是如何產生，或自己生成一個！，查看www.django-"
+"tutorial.com"

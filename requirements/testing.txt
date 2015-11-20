@@ -1,2 +1,4 @@
 -r base.txt
 selenium==2.48.0
+wheel==0.24.0
+coverage==4.0.2

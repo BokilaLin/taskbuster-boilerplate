@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Bokila Lin -- Coder -- @bokila_lin
 
 # THANKS
 
-    <name>
+    Thanks to all the very kind developers for their generous contrib
+    to the Python & Django community!
 
 # TECHNOLOGY COLOPHON
 
+    Django
     HTML5, CSS3
-    jQuery, Modernizr
+    Twitter Bootstrap

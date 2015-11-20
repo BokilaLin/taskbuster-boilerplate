@@ -21,6 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 from django.core.exceptions import ImproperlyConfigured
+from django.utils.translation import ugettext_lazy as _
+
 
 def get_env_variable(var_name):
     try:
@@ -49,6 +51,7 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -69,6 +72,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -95,7 +99,16 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+LANGUAGES = (
+        ('en', _('English')),
+        ('ca', _('Catalan')),
+        ('zh', _('Chinese')),
+)
+LOCALE_PATHS = (
+        os.path.join(BASE_DIR, 'locale'),
+)
+
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
